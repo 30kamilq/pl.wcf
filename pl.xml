@@ -56,7 +56,7 @@
 		<item name="wcf.acp.group.showMembers"><![CDATA[Pokaż użytkowników należących do tej grupy]]></item>
 		<item name="wcf.acp.group.option.admin.general.canUseAcp"><![CDATA[Ma dostęp do Panelu administracyjnego]]></item>
 		<item name="wcf.acp.group.option.admin.general.canUseAcp.description"><![CDATA[Użytkownicy należący do tej grupy mają dostęp do panelu administracyjnego i (w zależności od ich uprawnień) mogą wykonywać pewne działania.]]></item>
-		<item name="wcf.acp.group.option.admin.general.canViewPrivateOptions"><![CDATA[Może przeglądać prywatne opcje użytkownika]]></item>
+		<item name="wcf.acp.group.option.admin.general.canViewPrivateUserOptions"><![CDATA[Może przeglądać prywatne opcje użytkownika]]></item>
 		<item name="wcf.acp.group.option.admin.language.canAddLanguage"><![CDATA[Może dodawać nowe języki]]></item>
 		<item name="wcf.acp.group.option.admin.language.canAddServer"><![CDATA[Może dodawać  nowe serwery z językami]]></item>
 		<item name="wcf.acp.group.option.admin.language.canDeleteLanguage"><![CDATA[Może usuwać języki]]></item>
