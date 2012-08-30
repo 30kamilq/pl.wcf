@@ -579,7 +579,7 @@
 		<item name="wcf.global.button.disabledI18n"><![CDATA[jednojęzyczne]]></item>
 		<item name="wcf.global.button.edit"><![CDATA[Edytuj]]></item>
 		<item name="wcf.global.button.enable"><![CDATA[Włącz]]></item>
-		<item name="wcf.global.button.next"><![CDATA[Następny &raquo;]]></item>
+		<item name="wcf.global.button.next"><![CDATA[Dalej &raquo;]]></item>
 		<item name="wcf.global.button.preview"><![CDATA[Podgląd]]></item>
 		<item name="wcf.global.button.reset"><![CDATA[Reset]]></item>
 		<item name="wcf.global.button.save"><![CDATA[Zapisz]]></item>
