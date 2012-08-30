@@ -12,10 +12,10 @@
 		<item name="wcf.acp.cronjob.startDow.description"><![CDATA[Dzień tygodnia (0 - 6 Niedziela = 0 lub mon - sun) w którym zadanie cron ma być uruchamiane. ]]></item>
 		<item name="wcf.acp.cronjob.startDowShort"><![CDATA[DoW]]></item>
 		<item name="wcf.acp.cronjob.startHour"><![CDATA[Godzina]]></item>
-		<item name="wcf.acp.cronjob.startHour.description"><![CDATA[Godzina (0 - 23) w którym zadanie cron ma być uruchamiane. ]]></item>
+		<item name="wcf.acp.cronjob.startHour.description"><![CDATA[Godzina (0 - 23) w której zadanie cron ma być uruchamiane. ]]></item>
 		<item name="wcf.acp.cronjob.startHourShort"><![CDATA[h]]></item>
 		<item name="wcf.acp.cronjob.startMinute"><![CDATA[Minuta]]></item>
-		<item name="wcf.acp.cronjob.startMinute.description"><![CDATA[Minuta (0 - 59) w którym zadanie cron ma być uruchamiane.]]></item>
+		<item name="wcf.acp.cronjob.startMinute.description"><![CDATA[Minuta (0 - 59) w której zadanie cron ma być uruchamiane.]]></item>
 		<item name="wcf.acp.cronjob.startMinuteShort"><![CDATA[m]]></item>
 		<item name="wcf.acp.cronjob.startMonth"><![CDATA[Miesiąc]]></item>
 		<item name="wcf.acp.cronjob.startMonth.description"><![CDATA[Miesiąc (1 - 12 lub jan - dec) w którym zadanie cron ma być uruchamiane. ]]></item>
@@ -56,7 +56,7 @@
 		<item name="wcf.acp.group.showMembers"><![CDATA[Pokaż użytkowników należących do tej grupy]]></item>
 		<item name="wcf.acp.group.option.admin.general.canUseAcp"><![CDATA[Ma dostęp do Panelu administracyjnego]]></item>
 		<item name="wcf.acp.group.option.admin.general.canUseAcp.description"><![CDATA[Użytkownicy należący do tej grupy mają dostęp do panelu administracyjnego i (w zależności od ich uprawnień) mogą wykonywać pewne działania.]]></item>
-		<item name="wcf.acp.group.option.admin.general.canViewPrivateUserOptions"><![CDATA[Może przeglądać prywatne opcje użytkownika]]></item>
+		<item name="wcf.acp.group.option.admin.general.canViewPrivateOptions"><![CDATA[Może przeglądać prywatne opcje użytkownika]]></item>
 		<item name="wcf.acp.group.option.admin.language.canAddLanguage"><![CDATA[Może dodawać nowe języki]]></item>
 		<item name="wcf.acp.group.option.admin.language.canAddServer"><![CDATA[Może dodawać  nowe serwery z językami]]></item>
 		<item name="wcf.acp.group.option.admin.language.canDeleteLanguage"><![CDATA[Może usuwać języki]]></item>
@@ -285,7 +285,7 @@
 	<category name="wcf.acp.package">
 		<item name="wcf.acp.package.application.installed"><![CDATA[Zainstalowane aplikacje]]></item>
 		<item name="wcf.acp.package.application.title"><![CDATA[Aplikacje]]></item>
-		<item name="wcf.acp.package.author"><![CDATA[Developer]]></item>
+		<item name="wcf.acp.package.author"><![CDATA[Autor]]></item>
 		<item name="wcf.acp.package.button.info"><![CDATA[Informacje]]></item>
 		<item name="wcf.acp.package.button.uninstall"><![CDATA[Odinstaluj]]></item>
 		<item name="wcf.acp.package.button.update"><![CDATA[Zaktualizuj]]></item>
@@ -343,7 +343,7 @@
 		<item name="wcf.acp.updateServer.delete.sure"><![CDATA[Czy na pewno chcesz usunąć serwer &quot;{$updateServer->serverURL}&quot;?]]></item>
 		<item name="wcf.acp.updateServer.edit"><![CDATA[Edytuj serwer]]></item>
 		<item name="wcf.acp.updateServer.errorMessage"><![CDATA[Komunikat o błędach]]></item>
-		<item name="wcf.acp.updateServer.list"><![CDATA[Zaktualizuj serwery]]></item>
+		<item name="wcf.acp.updateServer.list"><![CDATA[Serwery aktualizacji]]></item>
 		<item name="wcf.acp.updateServer.list.count"><![CDATA[{#$items} zaktualizowany{if $items != 1}ch{/if} serwer{if $items != 1}ów{/if}]]></item>
 		<item name="wcf.acp.updateServer.lastErrorText"><![CDATA[Wystąpił następujący błąd podczas próby połączenia:]]></item>
 		<item name="wcf.acp.updateServer.loginPassword"><![CDATA[Hasło]]></item>
