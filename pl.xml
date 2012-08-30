@@ -318,7 +318,7 @@
 		<item name="wcf.acp.package.list"><![CDATA[Lista pakietów]]></item>
 		<item name="wcf.acp.package.list.detailed"><![CDATA[Szczegółowa lista pakietów]]></item>
 		<item name="wcf.acp.package.name"><![CDATA[Pakiet]]></item>
-		<item name="wcf.acp.package.packageDate"><![CDATA[Data stworzenia]]></item>
+		<item name="wcf.acp.package.packageDate"><![CDATA[Data instalacji]]></item>
 		<item name="wcf.acp.package.packageDir.notAvailable"><![CDATA[Podany katalog zawiera już aplikację.]]></item>
 		<item name="wcf.acp.package.plugin.installed"><![CDATA[Zainstalowane pakiety]]></item>
 		<item name="wcf.acp.package.plugin.title"><![CDATA[Rozszerzenia]]></item>
