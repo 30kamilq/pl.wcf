@@ -591,6 +591,7 @@
 		<item name="wcf.global.confirmation.title"><![CDATA[Wymagane potwierdzenie]]></item>
 		<item name="wcf.global.decimalPoint"><![CDATA[.]]></item>
 		<item name="wcf.global.description"><![CDATA[Opis]]></item>
+		<item name="wcf.global.error.title"><![CDATA[Błąd]]></item>
 		<item name="wcf.global.form.add.success"><![CDATA[Nowa zawartość została pomyślnie zapisana]]></item>
 		<item name="wcf.global.form.data"><![CDATA[Główne informacje]]></item>
 		<item name="wcf.global.form.edit.success"><![CDATA[Zmiany zostały pomyślnie zapisane.]]></item>
