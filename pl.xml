@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl" languagename="Polish" countrycode="pl">
+	<category name="wcf.acl">
+		<item name="wcf.acl.option.deny"><![CDATA[Deny]]></item>
+		<item name="wcf.acl.option.fullAccess"><![CDATA[Full Access]]></item>
+		<item name="wcf.acl.option.grant"><![CDATA[Grant]]></item>
+		<item name="wcf.acl.permissions"><![CDATA[User and Group Permissions]]></item>
+	</category>
+
+	<category name="wcf.acp.application">
+		<item name="wcf.acp.application.cookie"><![CDATA[Cookie Settings]]></item>
+		<item name="wcf.acp.application.cookie.warning"><![CDATA[The settings below are used to establish a persistent login for your website; Keep in mind to update these values whenever the domain name or path changes. If you are unsure which values you need to provide, you can safely copy both values from above.]]></item>
+		<item name="wcf.acp.application.cookieDomain"><![CDATA[Cookie Domain]]></item>
+		<item name="wcf.acp.application.cookieDomain.error.containsPfad"><![CDATA[Cookie domain may not contain path components]]></item>
+		<item name="wcf.acp.application.cookieDomain.error.notValid"><![CDATA[Cookie domain does not match the domain entered above (sub-domains like “www” may be omitted).]]></item>
+		<item name="wcf.acp.application.cookiePath"><![CDATA[Cookie Path]]></item>
+		<item name="wcf.acp.application.cookiePath.error.notValid"><![CDATA[Cookie path does not match the domain path above.]]></item>
+		<item name="wcf.acp.application.domain"><![CDATA[Domain Settings]]></item>
+		<item name="wcf.acp.application.domainName"><![CDATA[Domain]]></item>
+		<item name="wcf.acp.application.domainName.description"><![CDATA[If you’re accessing this application through “http://www.example.com/community/forum/”, please enter “www.example.com”.]]></item>
+		<item name="wcf.acp.application.domainName.error.containsPfad"><![CDATA[Domain may not contain path components]]></item>
+		<item name="wcf.acp.application.domainPath"><![CDATA[Path]]></item>
+		<item name="wcf.acp.application.domainPath.description"><![CDATA[If you’re accessing this application through “http://www.example.com/community/forum/”, please enter “/community/forum/”.]]></item>
+		<item name="wcf.acp.application.edit"><![CDATA[Edit Application]]></item>
+		<item name="wcf.acp.application.edit.title"><![CDATA[Edit Application: “<a href="{link controller='Package' id=$application->packageID}{/link}">{$application->getPackage()->getName()}</a>”]]></item>
+		<item name="wcf.acp.application.list"><![CDATA[Installed Applications]]></item>
+		<item name="wcf.acp.application.primaryApplication"><![CDATA[Primary Application]]></item>
+		<item name="wcf.acp.application.setAsPrimary"><![CDATA[Set As Primary Application]]></item>
+		<item name="wcf.acp.application.setAsPrimary.confirmMessage"><![CDATA[Do you really want to set “{$application->getPackage()->getName()}” as the primary application?]]></item>
+	</category>
+	
 	<category name="wcf.acp.cronjob">
 		<item name="wcf.acp.cronjob.list"><![CDATA[Zaplanowane zadania]]></item>
 		<item name="wcf.acp.cronjob.add"><![CDATA[Dodaj nowe zaplanowane zadanie]]></item>
